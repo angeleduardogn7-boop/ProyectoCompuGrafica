@@ -102,11 +102,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\guill\OneDrive\Documentos\GitHub\ProyectoCompuGrafica\SimulacionMaquinaria\Libraries\include\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\guill\OneDrive\Documentos\GitHub\ProyectoCompuGrafica\SimulacionMaquinaria\Libraries\include;C:\Users\guill\OneDrive\Documentos\GitHub\ProyectoCompuGrafica\SimulacionMaquinaria\Libraries;C:\Users\guill\OneDrive\Documentos\GitHub\ProyectoCompuGrafica\SimulacionMaquinaria\Libraries\include\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\guill\OneDrive\Documentos\GitHub\ProyectoCompuGrafica\SimulacionMaquinaria\Libraries\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
