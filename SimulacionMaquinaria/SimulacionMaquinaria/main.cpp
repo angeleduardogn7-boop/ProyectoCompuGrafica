@@ -160,7 +160,7 @@ void display() {
     dibujarModelo(brazoIzq, 0.2f, 0.2f, 0.2f);    // Gris Oscuro
     dibujarModelo(cuchara, 0.4f, 0.4f, 0.4f);     // Gris Metalico
 
-    // Agrega aqui las demas piezas que subiste (llantas, pedales, etc.)
+    // Agrega aqui las demas piezas que subiste (llantas, pedales, etc.)..
     glPopMatrix();
 
     glutSwapBuffers();
